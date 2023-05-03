@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styleLogin.css">
+</head>
+
+<body>
+    <a href="./index.php"> <img src="/images/logo.svg" alt=""></a>
+    <div class="form-container">
+        <p class="title">Connexion</p>
+        <form class="form" action="login.php" method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="">
+            </div>
+            <input class="sign" type="submit" value="Se Connecter">
+        </form>
+
+        <p class="signup">Vous n'avez pas de compte ?
+            <a rel="noopener noreferrer" href="./register.php" class="">S'inscrire</a>
+        </p>
+    </div>
+</body>
+
+</html>

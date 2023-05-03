@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -18,25 +18,13 @@
             <li><a href="">Equipe</a></li>
         </ul>
         <ul>
-            <li><a href="">Connexion</a></li>
-            <li><a href="">Inscription</a></li>
+            <li><a href="/login.php">Connexion</a></li>
+            <li><a href="/register.php">Inscription</a></li>
         </ul>
     </nav>
     <main>
 
         <div class="grille">
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
-            <div class="block"></div>
             <div class="block"></div>
             <div class="block"></div>
             <div class="block"></div>
